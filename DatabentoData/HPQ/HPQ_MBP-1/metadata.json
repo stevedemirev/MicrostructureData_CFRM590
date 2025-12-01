@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "job_id": "XNAS-20251130-BC8AEDFV3U",
+    "query": {
+        "dataset": "XNAS.ITCH",
+        "schema": "mbp-1",
+        "symbols": [
+            "HPQ"
+        ],
+        "stype_in": "raw_symbol",
+        "stype_out": "instrument_id",
+        "start": 1649116800000000000,
+        "end": 1649635200000000000,
+        "limit": null,
+        "encoding": "csv",
+        "compression": null
+    },
+    "customizations": {
+        "pretty_px": true,
+        "pretty_ts": true,
+        "map_symbols": true,
+        "split_symbols": false,
+        "split_duration": "day",
+        "split_size": null,
+        "packaging": null,
+        "delivery": "download"
+    }
+}
